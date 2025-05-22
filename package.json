@@ -1,9 +1,17 @@
 {
   "name": "easy-tune",
   "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Xiaoli cannot js",
+    "email": "2045406525@qq.com",
+    "url": "https://github.com/xiaoli666-hub"
+  },
+
   "description": "EasyTune - 你的本地大模型微调得力助手",
   "main": "main.js",
   "scripts": {
+    "start": "next start -p 4737",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +23,7 @@
     "Tune",
     "Dataset"
   ],
-  "author": "Xiaoli cannot js",
+
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiaoli666-hub/Easy-Tune/issues"
