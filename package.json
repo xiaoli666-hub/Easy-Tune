@@ -1,0 +1,24 @@
+{
+  "name": "easy-tune",
+  "version": "0.0.1",
+  "description": "EasyTune - 你的本地大模型微调得力助手",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoli666-hub/Easy-Tune.git"
+  },
+  "keywords": [
+    "Easy",
+    "Tune",
+    "Dataset"
+  ],
+  "author": "Xiaoli cannot js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoli666-hub/Easy-Tune/issues"
+  },
+  "homepage": "https://github.com/xiaoli666-hub/Easy-Tune#readme"
+}
