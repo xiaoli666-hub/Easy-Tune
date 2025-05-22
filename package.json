@@ -7,13 +7,41 @@
     "email": "2045406525@qq.com",
     "url": "https://github.com/xiaoli666-hub"
   },
-
+  "license": "MIT",
   "description": "EasyTune - 你的本地大模型微调得力助手",
+  "homepage": "https://github.com/xiaoli666-hub/Easy-Tune#readme",
+
   "main": "main.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "next start -p 4737",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@arco-design/web-react": "^2.54.3",
+    "next": "15.2.3",
+    "next-themes": "^0.4.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^15.4.1",
+    "react-markdown": "^10.0.1",
+    "zustand": "^4.5.2",
+    "axios": "^1.6.2"
+  },
+
+  "devDependencies": {
+    "@types/node": "20.10.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "typescript": "5.8.3"
+  },
+
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md}": "npm run prettier"
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiaoli666-hub/Easy-Tune.git"
@@ -24,9 +52,8 @@
     "Dataset"
   ],
 
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiaoli666-hub/Easy-Tune/issues"
   },
-  "homepage": "https://github.com/xiaoli666-hub/Easy-Tune#readme"
+
 }
